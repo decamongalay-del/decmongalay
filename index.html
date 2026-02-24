@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>FreshBite Family Meals</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +12,9 @@
 <nav>
     <div class="logo">FreshBite</div>
     <ul>
+        <li><a href="#intro">Introduction</a></li>
         <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
@@ -24,7 +24,17 @@
     <p>Delicious • Fresh • Affordable</p>
 </header>
 
-<!-- Menu Section -->
+<!-- Introduction -->
+<section id="intro">
+    <h2>Welcome to FreshBite</h2>
+    <p>
+        FreshBite Family Meals serves freshly prepared, high-quality meals 
+        perfect for families and friends. We use carefully selected ingredients 
+        to create delicious dishes everyone will love.
+    </p>
+</section>
+
+<!-- Menu -->
 <section id="menu">
     <h2>Our Special Menu</h2>
 
@@ -81,11 +91,28 @@
     </div>
 </section>
 
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+        <p><strong>Phone:</strong> +123 456 7890</p>
+        <p><strong>Email:</strong> freshbite@email.com</p>
+        <p><strong>Address:</strong> 123 Food Street, Flavor Town</p>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
 <footer>
     <p>© 2026 FreshBite Family Meals | All Rights Reserved</p>
 </footer>
 
-<!-- Link JavaScript -->
 <script src="script.js"></script>
 </body>
 </html>
